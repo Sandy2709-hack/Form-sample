@@ -1,0 +1,94 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="styles.css" rel="stylesheet">
+    <title>Survey form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thanks for sharing your valuable information.<br>
+    This is a survey to know how many users are actively working twoards theit hobbies<br> and are posting them on which social media platform.</p>
+    <hr>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" class="info" >Name:</label> <input class="same" type="text" id="name"  placeholder="Enter your name" required >
+        <label id="email-label">e-mail: </label>
+      <input class="same" type="email" id="email" placeholder="Enter your email" required >
+       <label id="number-label">Age:</label>
+         <input class="same" id="number" type="number" min="0" max="120" placeholder="How old you are?" >
+      </fieldset>
+      <hr>
+      <fieldset>
+        <label for="dropdown">Which social media platform do you use?</label>
+        <select class="same"id="dropdown">
+          <option value="1">(select one)</option>
+          <option value="2">Instagram</option>
+          <option value="3">Facebook</option>
+          <option value="4">Snapchat</option>
+          <option value="5">Twitter</option>
+          <option value="6">Threads</option>
+        </select>
+         </fieldset>
+         <hr>
+         <fieldset>
+           <label for="social-life">Do you post about yor hobbies on social media?</label>
+           <label><input value="rr" type="radio" name="radio" checked> yes</label>
+           <label><input value="ee" type="radio" name="radio"> no </label>
+         </fieldset>
+         <hr>
+         <fieldset>
+           <label for="hobbies"></label>Hobbies:
+           <label><input value="dancing" type="checkbox">Dancing</label>
+           <label><input value="singing" type="checkbox">Singing</label>
+           <label><input value="drawing" type="checkbox">Drawing</label>
+           <label><input value="writing" type="checkbox">Writing</label>
+           <label><input value="fitness" type="checkbox">Fitness</label>
+           <label><input value="coding" type="checkbox">Coding</label>
+           </fieldset>
+           <hr>
+           <fieldset>
+             <label>Tell us about your future plans(if any):-</label>
+             <textarea class="same" placeholder="I want to start an anime art series on my insta..." rows="3" cols="33"></textarea>
+           </fieldset>
+           <hr>
+           <fieldset>
+             <input id="submit" type="submit" name="submit" value="Submit">
+           </fieldset>
+    </form>
+  </body>
+</html>
+     
+        
+          
+          
+          
+          
+
+** end of index.html **
+
+** start of styles.css **
+
+label{display: block;}
+body{width: 100%;
+background-color: #0B3C5D;
+color: #DDE9F3;}
+form{width: 80vw;
+margin: 0 auto;
+ }
+.same{width: 100%;}
+h1,p{text-align: center;
+background-color: #1B4F72;
+width: 80vw;
+margin: 0 auto;}
+fieldset{padding-bottom: 20px;
+border: 0 ;background-color: #1B4F72;}
+hr{border: 0;}
+input,select,textarea{background-color: #A2B9C9;
+color: #395368;}
+
+** end of styles.css **
+
