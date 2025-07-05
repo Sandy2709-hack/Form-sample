@@ -17,4 +17,4 @@ hr{border: 0;}
 input,select,textarea{background-color: #A2B9C9;
 color: #395368;}
 .container{max-width: 500px;
-          margin: 20px 0}
+          margin: 20px auto}
