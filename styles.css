@@ -1,0 +1,17 @@
+label{display: block;}
+body{width: 100%;
+background-color: #0B3C5D;
+color: #DDE9F3;}
+form{width: 80vw;
+margin: 0 auto;
+ }
+.same{width: 100%;}
+h1,p{text-align: center;
+background-color: #1B4F72;
+width: 80vw;
+margin: 0 auto;}
+fieldset{padding-bottom: 20px;
+border: 0 ;background-color: #1B4F72;}
+hr{border: 0;}
+input,select,textarea{background-color: #A2B9C9;
+color: #395368;}
