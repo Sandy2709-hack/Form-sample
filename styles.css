@@ -1,7 +1,8 @@
 label{display: block;}
 body{width: 100%;
 background-color: #0B3C5D;
-color: #DDE9F3;}
+color: #DDE9F3;
+    font-family: poppins, sans-serif}
 form{width: 80vw;
 margin: 0 auto;
  }
